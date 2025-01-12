@@ -1,0 +1,11 @@
+clear all
+close all
+R1=100;
+V=0:0.1:100;
+R2=50;
+R3=200;
+I1=V/R1;
+I2=V/R2;
+I3=V/R3;
+plot(V,I1,V,I2,V,I3)
+grid on
