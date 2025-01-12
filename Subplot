@@ -1,0 +1,25 @@
+clear all
+close all
+R1=100;
+V=0:0.1:100;
+R2=50;
+R3=200;
+I1=V/R1;
+I2=V/R2;
+I3=V/R3;
+subplot(3,2,1)
+plot(V,I1,'g')
+title('Subplot 1:')
+xlabel('voltage')
+ylabel('current')
+subplot(3,2,4)
+plot(V,I2,'y')
+xlabel('voltage')
+ylabel('current')
+title('Subplot 2:')
+subplot(3,2,5)
+plot(V,I3,'b')
+xlabel('voltage')
+ylabel('current')
+title('Subplot 3:')
+grid on
