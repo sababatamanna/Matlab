@@ -1,0 +1,7 @@
+clc
+clear all
+close all
+R=100;
+V=0:0.1:100;
+I=V/R;
+plot(V,I,'r')
