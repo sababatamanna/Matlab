@@ -1,0 +1,10 @@
+num=[0 0 1];
+den=[0 1 1];
+W=logspace(-4,4);
+h=freqs(num,den,W);
+f=W/(2*3.1416);
+mag=20*log10(abs(h));
+semilogx(f,mag);
+grid on;
+xlabel('Frequency');
+ylabel('Gain,dB');
